@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主界面</title>
+    <link href="ui.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="encode.js" type="text/javascript"></script>
+    <script src="core.js" type="text/javascript"></script>
+    <script src="cryptico.js" type="text/javascript"></script>
+</head>
+
+<body id="bo">
+    <script>
+        function a() {
+            close()
+        }
+    </script>
+    <div id="coo">
+        <div class="left">
+            <img class="im" id="fir"></img>
+            <hr class="split">
+            <div class="talklist" id="list">
+                <input type="image" v-for="a in friends" :id="a.id" class="li" @click="swi(a.id,a.alisa)"
+                    :src=textToImg([50,50],a.alisa)></buttion>
+            </div>
+
+            <button type="submit" @click="add" class="add" id="plus">+</button>
+            <button type="submit" @click="del" class="add" id="del" style="margin-top:5px">删除</button>
+
+        </div>
+        <div class="right">
+            <div class="func">
+                <input type="image" style="position: absolute;top:5px;right: 60px;-webkit-app-region:no-drag"
+                    src="最小化.svg" onclick="minimize()" width="15px" />
+                <input type="image" id="max" src="最大化 .svg" onclick="maximize()"
+                    style="position: absolute;right: 40px;top:5px;-webkit-app-region:no-drag" width="15px" />
+                <input type="image" src="关  闭.svg" onclick="a()"
+                    style="position: absolute;top:5px;right: 20px;-webkit-app-region:no-drag" width="15px" />
+            </div>
+            <div class="talktext" id="title">
+                <h2 style="margin-left: 36px"> {{message}}</h2>
+            </div>
+            <hr  v-if="seen" class="split2">
+            <div class="dialog">
+
+                <fieldset v-bind:class="{'rbubble':m.sender === sender, 'lbubble': m.sender!== sender}"
+                    v-for="m in damnMessage">
+                    <legend align="center" style="font-size: 14px;">{{date}}</legend>
+                    <p class="text">
+                        {{m.text}}
+                    </p>
+                </fieldset>
+            </div>
+            <hr v-if="seen" class="split2">
+            <div class="rsend" v-if="seen">
+                <textarea id="in" rows="50" cols="3" spellcheck="false"></textarea>
+                <button class="add" @click="send()"
+                    style="margin:8px;width: 60px;align-self: flex-end;margin-bottom: 12px;">发送</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src=ui.js></script>
+
+</html>

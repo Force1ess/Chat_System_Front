@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="add.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="encode.js" type="text/javascript"></script>
+    <script src="core.js" type="text/javascript"></script>
+    <script src="cryptico.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <input type="image" src="关  闭.svg" onclick="clo()" style="margin-left: 350px;" width="15px" />
+    <div style="margin: 0;margin-left:20px;margin-top: 8px;">
+        <a id="font1">
+            <strong>您通过分享您的ID或添加他人ID来添加好友</strong>
+        </a>
+        <br>
+        <div id="ad">
+            <h3 style="width: 100px;" class="h3">点击复制您的ID--><input type="text" id="copy" value=id() class="input"></h3>
+        </div>
+        <div>
+            <h3 style="width: 100px;" class="h3">输入ID添加好友--><input type="text" placeholder="请输入ID" id="addf" class="input">
+                <input type="text" id="ali" class="input"placeholder="请输入备注名" style="width: 100px;">
+            </h3>
+        </div>
+        <button class="reg" onclick="addfri()">确定</button>
+    </div>
+</body>
+<script src="add.js" type="text/javascript"></script>
+<script>
+    window.onload = () => {
+        document.getElementById('copy').value = param
+    }
+</script>
+
+</html>

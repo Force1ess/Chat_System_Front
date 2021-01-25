@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>P2P System!</title>
+  <style type="text/css">
+    .reg {
+      width: 100px;
+      min-height: 20px;
+      background-color: #4a77d4;
+      border: 1px solid #3762bc;
+      color: #fff;
+      padding: 9px 14px;
+      font-size: 15px;
+      line-height: normal;
+      border-radius: 5px;
+      margin: 2px;
+    }
+  </style>
+  <script src="encode.js" type="text/javascript"></script>
+  <script src="core.js" type="text/javascript"></script>
+  <script src="cryptico.js" type="text/javascript"></script>
+  <script src="chat.js" type="text/javascript"></script>
+
+</head>
+<script>
+  function a() {
+    close();
+  }
+</script>
+
+<body style="margin-left: 250px;">
+  <script src="renderer.js"></script>
+  <div style="-webkit-app-region: drag;"><input type="image" src="关  闭.svg" onclick="a()"
+      style="-webkit-app-region:no-drag;margin-left: 520px;" width="25px" /></div>
+
+  <br>
+  <img src="捕获.PNG" width="300px" draggable="true">
+  <div style="font-size: 20px;">
+    <p style="font-size: larger;">"Privacy is not luxury,right?<br>&nbsp&nbspAt least, not here"</p>
+    <input id="a" placeholder="用户名" type="text"
+      style="text-shadow: 1px1px1px;position:relative;font-size: 18px;background-color: rgb(236, 232, 232);">
+    <br>
+    <input id="b" placeholder="密码" type="password"
+      style="text-shadow: 1px1px1px;position:relative;font-size: 18px;background-color: rgb(236, 232, 232);">
+  </div>
+  <br>
+  <button type="submit" class="reg" onclick="Verify()" />登录</button>
+  <button class="reg" type="submit" onclick="Register()">注册</button>
+</body>
+
+</html>

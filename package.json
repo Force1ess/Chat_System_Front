@@ -1,0 +1,17 @@
+{
+  "name": "chat-front",
+  "version": "1.0.0",
+  "description": "A front work from chat system",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Forceless",
+  "win": {
+    "icon": "icon"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^11.2.0"
+  }
+}
