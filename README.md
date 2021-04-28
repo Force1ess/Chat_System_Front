@@ -6,11 +6,10 @@ Chat System
 ##### Find corresponding code endside code at my friend [puellaquae](https://github.com/Puellaquae/Chat)
 1. You should install electron at the folder you just download
 * npm install electron --save-dev
-2. npm start
+2. Then run it!
+* npm start
 * then you can see this work
-* If you want to chat with others:
-
-##### run my friend's code before this
+##### If you want to chat with others， run my friend's code before this
 
 ### Screenshot:
 
