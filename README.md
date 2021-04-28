@@ -6,6 +6,6 @@
 1. You should install electron at the folder you just download
 * npm install electron --save-dev
 2. npm start
-then you can see this work
-If you want to chat with others:
+* then you can see this work
+* If you want to chat with others:
 ##### run my friend's code befor this
