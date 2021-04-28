@@ -15,8 +15,8 @@ Chat System
 ### Screenshot:
 
 * When you register and log in, remember use your ID given by prompt, that's important
- ![image-20210428230234912](C:\Users\月下独饮小可爱\AppData\Roaming\Typora\typora-user-images\image-20210428230234912.png)
+ ![image-20210428230234912](\1.png)
 
-* ![image-20210428230401709](C:\Users\月下独饮小可爱\AppData\Roaming\Typora\typora-user-images\image-20210428230401709.png)
+* ![image-20210428230401709](\2.png)
 * When you try to add friend, use his ID too 
- ![image-20210428230421993](C:\Users\月下独饮小可爱\AppData\Roaming\Typora\typora-user-images\image-20210428230421993.png)
+ ![image-20210428230421993](\3.png)
