@@ -14,8 +14,8 @@
 ### Screenshot:
 
 * When you register and log in, remember use your ID given by prompt, that's important
- ![image-20210428230234912](\1.png)
+ ![💖](https://github.com/Force1ess/ChatSystemWithVue-electron/blob/main/1.png)
 
-* ![image-20210428230401709](\2.png)
+* ![💖](https://github.com/Force1ess/ChatSystemWithVue-electron/blob/main/2.png)
 * When you try to add friend, use his ID too 
- ![image-20210428230421993](\3.png)
+ ![💖](https://github.com/Force1ess/ChatSystemWithVue-electron/blob/main/3.png)
