@@ -1,4 +1,4 @@
-Chat System
+# Chat System
 
 ### Mainly used Vue and Electron
 #### It is just a frontside work
